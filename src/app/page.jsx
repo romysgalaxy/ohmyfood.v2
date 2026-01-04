@@ -4,8 +4,6 @@ import Steps from "@/components/Steps/Steps";
 import RestaurantCard from "@/components/RestaurantCard/RestaurantCard";
 import { restaurants } from "@/data/restaurants";
 
-
-
 export default function Home() {
   return (
     <>
@@ -24,14 +22,6 @@ export default function Home() {
 
       <Steps />
 
-      {/* <section className={styles.restaurants}>
-        <div className={styles.restaurantsContent}>
-          <h2>Restaurants</h2>
-          <div className={styles.restaurantGrid}>
-            
-          </div>
-        </div>
-      </section> */}
       <section className={styles.restaurants}>
         <div className={styles.restaurantsContent}>
           <h2>Restaurants</h2>
